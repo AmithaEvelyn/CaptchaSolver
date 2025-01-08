@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "BotBreaker",
+  "version": "1.0",
+  "description": "Extract CAPTCHA from the webpage.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"], 
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "download.jpg"
+  }
+}
